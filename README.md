@@ -1,8 +1,10 @@
 # Loan-Approval-Prediction
 🎯 Objective
+
 Predict whether a loan applicant poses a credit risk based on demographic and employment information.
 
 🧠 Problem Statement
+
 Credit institutions face financial risk when approving loans to applicants with poor repayment capacity. This model classifies applicants into Risk (1) and No Risk (0) using demographic and professional data.
 
 📊 Dataset
