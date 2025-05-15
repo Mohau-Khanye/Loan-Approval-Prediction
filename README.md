@@ -18,6 +18,8 @@ Financial institutions face significant risk when loans are granted to high-risk
 
 ## 📊 Dataset
 
+The dataset used for this project was sourced from Kaggle: [Loan Approval Prediction Dataset](https://www.kaggle.com/datasets/itssuru/loan-prediction)
+
 - **Features:** 13 columns including:
   - Age
   - Income
