@@ -1,58 +1,65 @@
-# Loan-Approval-Prediction
-🎯 Objective
+# 🧾 Loan Approval Prediction
 
-Predict whether a loan applicant poses a credit risk based on demographic and employment information.
+This project builds a machine learning model to predict whether a loan applicant poses a credit risk. It's designed to help financial institutions make informed, data-driven loan approval decisions.
 
-🧠 Problem Statement
+---
 
-Credit institutions face financial risk when approving loans to applicants with poor repayment capacity. This model classifies applicants into Risk (1) and No Risk (0) using demographic and professional data.
+## 🎯 Objective
 
-📊 Dataset
+Predict whether an applicant will default on a loan (Risk_Flag: 1) or not (Risk_Flag: 0), using demographic and professional features.
 
-13 features including: Income, Age, Profession, Marital Status, Current Job Years, House Ownership, etc.
+---
 
-Target variable: Risk_Flag
+## 🧠 Problem Statement
 
-⚙️ Tools & Technologies
+Financial institutions face significant risk when loans are granted to high-risk applicants. By using historical loan applicant data, we can train supervised classification models to assist in risk assessment and reduce default rates.
 
-Python, Pandas, NumPy
+---
 
-Scikit-learn
+## 📊 Dataset
 
-Logistic Regression, Decision Tree, Random Forest, Naive Bayes, SVM
+- **Features:** 13 columns including:
+  - Age
+  - Income
+  - Profession
+  - House Ownership
+  - Marital Status
+  - Current Job Years
+  - Number of Dependents
+- **Target Variable:** `Risk_Flag`
 
-Matplotlib & Seaborn for EDA
+---
 
-Streamlit (optional for app interface)
+## ⚙️ Tools & Technologies
 
-📈 Workflow
+- Python (Pandas, NumPy, Scikit-learn)
+- Models: Logistic Regression, Decision Tree, Random Forest, Naive Bayes, SVM
+- Visualization: Matplotlib, Seaborn
 
-Data Cleaning & Encoding
+---
 
-Exploratory Data Analysis (EDA)
+## 📈 Project Workflow
 
-Feature Scaling
+1. Data Cleaning & Encoding
+2. Exploratory Data Analysis (EDA)
+3. Feature Scaling (StandardScaler)
+4. Model Training & Evaluation
+5. Performance Metrics: Accuracy, F1 Score
 
-Train-Test Split
+---
 
-Model Training
+## 🏆 Best Model Performance
 
-Evaluation using Accuracy, F1 Score
+**Random Forest Classifier**  
+- Accuracy: **85%**  
+- F1 Score (Weighted): **0.83**
 
-🧪 Best Model Performance
+---
 
-Random Forest Classifier:
+## 🚀 Future Improvements
 
-Accuracy: 85%
-
-F1 Score: 0.83 (weighted)
-
-🚀 Future Improvements
-
-Hyperparameter tuning
-
-Cross-validation
-
-Deployment on Streamlit or Flask
+- Hyperparameter tuning (GridSearchCV)
+- Cross-validation (Stratified KFold)
+- Streamlit dashboard deployment
 
 
